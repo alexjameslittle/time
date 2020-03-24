@@ -9,7 +9,7 @@ import Foundation
 
 public struct Template<F>: Format {
     internal let template: String
-    internal init(_ template: String) {
+    public init(_ template: String) {
         self.template = template
     }
 }
